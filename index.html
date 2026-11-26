@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>中村グループ共栄会｜社員旅行のしおり</title>
+  <style>
+    :root {
+      --forest: #18392f;
+      --paper: #f6f3ea;
+      --surface: #fffdf7;
+      --ink: #23372e;
+      --gold: #b18d4e;
+      --line: #dcd3bf;
+      --serif: "Yu Mincho", "Hiragino Mincho ProN", serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 1rem/1.7 system-ui, sans-serif;
+    }
+    header {
+      padding: 2rem 1.25rem;
+      color: var(--surface);
+      background: var(--forest);
+      border-bottom: 3px solid var(--gold);
+    }
+    header div, main, nav div { max-width: 46rem; margin: auto; }
+    header p { margin: .3rem 0; color: #f1dcb1; }
+    h1, h2, .card strong { font-family: var(--serif); }
+    h1 { margin: .45rem 0; font-size: clamp(1.8rem, 6vw, 3rem); }
+    h2, h3, p { margin: 0 0 .45rem; }
+    h3 { font-size: 1rem; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+    }
+    nav div { display: flex; justify-content: space-evenly; }
+    a { color: #285a45; text-underline-offset: .2em; }
+    nav a, .links a {
+      display: flex;
+      align-items: center;
+      min-height: 44px;
+    }
+    nav a { padding: .5rem; font-weight: 700; text-decoration: none; }
+    a:focus-visible { outline: 2px solid #836426; outline-offset: 3px; }
+    main { padding: 1rem 1rem 3rem; }
+    [data-page][hidden], img[hidden] { display: none; }
+    .hero { display: block; width: 100%; height: auto; margin-bottom: 1rem; }
+    .panel, .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      scroll-margin-top: 4.5rem;
+    }
+    .card {
+      display: block;
+      border-top: 2px solid var(--gold);
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .card strong { display: block; font-size: 1.25rem; }
+    .date, time { font-weight: 750; color: #415b4d; }
+    ol { list-style: none; margin: 0; padding: 0; }
+    li {
+      display: grid;
+      grid-template-columns: minmax(5.6rem, 26%) minmax(0, 1fr);
+      gap: .6rem;
+      padding: .8rem 0;
+      border-top: 1px solid var(--line);
+    }
+    time { font-size: .875rem; }
+    .stop-heading {
+      padding: .35rem .65rem;
+      color: var(--surface);
+      background: var(--forest);
+      border-bottom: 2px solid var(--gold);
+    }
+    .option {
+      margin-top: .65rem;
+      padding: .65rem;
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--gold);
+      background: #f6f0e2;
+      overflow-wrap: anywhere;
+    }
+    .option + .option { background: #eef2e8; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <p>中村グループ共栄会</p>
+      <h1>社員旅行のしおり</h1>
+      <p>石川・福井 ｜ 1泊2日</p>
+      <strong>2027年4月20日（火）〜21日（水）</strong>
+    </div>
+  </header>
+
+  <nav aria-label="しおりのメニュー">
+    <div>
+      <a href="#home">ホーム</a>
+      <a href="#schedule">スケジュール</a>
+      <a href="#hotel">ホテル情報</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" data-page aria-label="ホーム">
+      <img class="hero" src="spring-garden.webp" width="1672" height="941"
+           alt="春の兼六園をイメージした、桜と石灯籠のある庭園"
+           onerror="this.hidden = true">
+      <a class="card" href="#schedule">
+        <strong>スケジュール</strong>集合案内・4月20日と21日の行程
+      </a>
+      <a class="card" href="#hotel">
+        <strong>ホテル情報</strong>山代温泉 ゆのくに天祥
+      </a>
+      <div class="panel">
+        <h2>集合案内</h2>
+        <p>出発日の集合時刻・集合場所は確認中です。</p>
+        <p>往路の新幹線は東京駅 08:11発、大宮駅 08:36発の予定です。</p>
+      </div>
+    </section>
+
+    <section id="schedule" data-page>
+      <h2>スケジュール</h2>
+      <a class="card" href="#day1"><strong>4月20日（火）｜1日目</strong>金沢・山代温泉</a>
+      <a class="card" href="#day2"><strong>4月21日（水）｜2日目</strong>永平寺・東尋坊</a>
+
+      <div class="panel">
+        <h3>集合案内</h3>
+        <p>出発日の集合時刻・集合場所は確認中です。</p>
+        <p>旅行会社のモデルコースに基づく行程です。</p>
+      </div>
+
+      <section class="panel" id="day1">
+        <p class="date">4月20日（火）</p>
+        <h2>金沢から山代温泉へ</h2>
+        <ol>
+          <li><time>08:11 / 08:36</time><div><h3>東京駅 / 大宮駅 出発</h3><p>北陸新幹線 かがやき505号</p></div></li>
+          <li><time>10:45</time><div><h3>金沢駅 到着</h3><p>11:15頃 貸切バスで出発</p></div></li>
+          <li><time>11:30〜12:30</time><div><h3>兼六園</h3><div class="links"><a data-map="兼六園">📍Googleマップで見る</a></div></div></li>
+          <li><time>12:40〜13:30</time><div><h3>金沢市内で昼食</h3><p>会場は確認中</p></div></li>
+          <li>
+            <time>13:45〜14:30</time>
+            <div>
+              <h3 class="stop-heading">立ち寄り候補</h3>
+              <div class="option links">
+                <strong>ひがし茶屋街</strong>
+                <a href="https://www.kanazawa-kankoukyoukai.or.jp/spot/detail_10212.html">公式サイトを見る</a>
+                <a data-map="ひがし茶屋街">📍Googleマップで見る</a>
+              </div>
+              <div class="option links">
+                <strong>近江町市場</strong>
+                <a href="https://ohmicho-ichiba.com/">公式サイトを見る</a>
+                <a data-map="近江町市場">📍Googleマップで見る</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <time>15:30頃</time>
+            <div class="links">
+              <h3>山代温泉 到着</h3>
+              <p>宿泊先 ゆのくに天祥</p>
+              <a href="https://yunokunitensyo.jp/">公式サイトを見る</a>
+              <a data-map="ゆのくに天祥">📍Googleマップで見る</a>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="panel" id="day2">
+        <p class="date">4月21日（水）</p>
+        <h2>永平寺と東尋坊へ</h2>
+        <ol>
+          <li><time>09:15</time><div><h3>ロビー集合</h3></div></li>
+          <li><time>09:30</time><div><h3>山代温泉 出発</h3></div></li>
+          <li>
+            <time>10:20〜11:45</time>
+            <div class="links">
+              <h3>永平寺</h3>
+              <a href="https://daihonzan-eiheiji.com/">公式サイトを見る</a>
+              <a data-map="大本山永平寺">📍Googleマップで見る</a>
+            </div>
+          </li>
+          <li>
+            <time>12:40〜14:00</time>
+            <div class="links">
+              <h3>東尋坊・昼食</h3>
+              <a href="https://kanko-sakai.com/spot/k001/">公式サイトを見る</a>
+              <a data-map="東尋坊">📍Googleマップで見る</a>
+            </div>
+          </li>
+          <li><time>15:40</time><div><h3>金沢駅 到着</h3></div></li>
+          <li><time>16:49</time><div><h3>金沢駅 出発</h3><p>北陸新幹線 かがやき512号</p></div></li>
+          <li><time>18:54 / 19:20頃</time><div><h3>大宮駅 / 東京駅 到着</h3></div></li>
+        </ol>
+      </section>
+    </section>
+
+    <section id="hotel" class="panel links" data-page>
+      <h2>ホテル情報</h2>
+      <h3>山代温泉 ゆのくに天祥</h3>
+      <a href="https://yunokunitensyo.jp/">公式サイトを見る</a>
+      <a data-map="ゆのくに天祥">📍Googleマップで見る</a>
+      <a href="tel:0761771234">電話する 0761-77-1234</a>
+    </section>
+  </main>
+
+  <script>
+    const pages = document.querySelectorAll('[data-page]');
+    const sections = {
+      home: 'home',
+      schedule: 'schedule',
+      day1: 'schedule',
+      day2: 'schedule',
+      hotel: 'hotel'
+    };
+
+    function showPage() {
+      const destination = location.hash.slice(1) || 'home';
+      const page = Object.hasOwn(sections, destination)
+        ? sections[destination]
+        : 'home';
+
+      for (const section of pages) {
+        section.hidden = section.id !== page;
+      }
+      for (const link of document.querySelectorAll('nav a')) {
+        if (link.hash === '#' + page) {
+          link.setAttribute('aria-current', 'page');
+        } else {
+          link.removeAttribute('aria-current');
+        }
+      }
+
+      if (destination === 'day1' || destination === 'day2') {
+        document.getElementById(destination).scrollIntoView();
+      } else {
+        window.scrollTo(0, 0);
+      }
+    }
+
+    for (const link of document.querySelectorAll('[data-map]')) {
+      link.href = 'https://www.google.com/maps/search/?api=1&query=' +
+        encodeURIComponent(link.dataset.map);
+      link.setAttribute('aria-label', link.dataset.map + 'をGoogleマップで見る');
+    }
+    window.addEventListener('hashchange', showPage);
+    showPage();
+  </script>
+</body>
+</html>
